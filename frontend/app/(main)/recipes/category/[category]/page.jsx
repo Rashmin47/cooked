@@ -13,7 +13,7 @@ export default function CategoryRecipesPage() {
       type="category"
       value={category}
       fetchAction={getMealsByCategory}
-      backlink="/dashboard"
+      backLink="/dashboard"
     />
   );
 }

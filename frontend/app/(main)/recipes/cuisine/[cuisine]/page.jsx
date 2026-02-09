@@ -10,10 +10,10 @@ export default function CuisineRecipesPage() {
 
   return (
     <RecipeGrid
-      type="category"
-      value={category}
+      type="cuisine"
+      value={cuisine}
       fetchAction={getMealsByArea}
-      backlink="/dashboard"
+      backLink="/dashboard"
     />
   );
 }
